@@ -23,10 +23,10 @@ public class CashCardJsonTest {
     private CashCard[] cashCards;
 
     @BeforeEach
-    void setUp(){
+    void setUp() {
         cashCards = Arrays.array(
-                new CashCard(99L,123.45, "sarah1"),
-                new CashCard(100L,1.00, "sarah1"),
+                new CashCard(99L, 123.45, "sarah1"),
+                new CashCard(100L, 1.00, "sarah1"),
                 new CashCard(101L, 150.00, "sarah1")
         );
     }
